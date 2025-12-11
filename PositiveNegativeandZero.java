@@ -1,6 +1,5 @@
 import java.util.Scanner;
 public class PositiveNegativeandZero {
-
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		System.out.println("Enter the input: ");
@@ -13,5 +12,4 @@ public class PositiveNegativeandZero {
 			System.out.println("The given Number " + sc + " is Zero");
 		}
 	}
-
 }
