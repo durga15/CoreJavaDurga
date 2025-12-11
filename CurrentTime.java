@@ -1,7 +1,7 @@
 import java.time.LocalTime;
+
 public class CurrentTime{
 public static void main(String[] args){
-
     LocalTime now = LocalTime.now();
     int hour = now.getHour();
     System.out.println("hour");
