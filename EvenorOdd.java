@@ -1,9 +1,7 @@
 import java.util.Scanner;
 
 public class EvenorOdd {
-
 	public static void main(String[] args) {
-	
 		Scanner ip1 = new Scanner(System.in);
 		System.out.println("Enter the Number:");
 		int ip2 = ip1.nextInt();
@@ -12,7 +10,5 @@ public class EvenorOdd {
 		}else {
 			System.out.println("The given number " + ip2 + " is odd");
 		}
-
 	}
-
 }
